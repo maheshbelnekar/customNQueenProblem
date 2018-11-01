@@ -15,7 +15,7 @@ def count_on_col(board, col):
     return sum( [ row[col] for row in board ] )
 
 # Count # of pieces in given diagonal
-#
+# 
 # Logic to find points that lie on the diagonal:
 # Every diagonal in the martrix can either have slope 1 or -1
 # Thus, using the slope point form, we can find that,
